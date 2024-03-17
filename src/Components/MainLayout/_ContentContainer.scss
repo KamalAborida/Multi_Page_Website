@@ -1,0 +1,17 @@
+.contentContainer {
+  width: $DesktopWidth;
+  // border: 3px solid blue;
+  margin: 50px auto 400px auto;
+}
+
+@include custom-media($tabletWidth) {
+  .contentContainer {
+    width: 90%;
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .contentContainer {
+    width: 100%;
+  }
+}

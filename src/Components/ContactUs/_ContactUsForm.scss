@@ -1,0 +1,45 @@
+.contactUsForm {
+  // padding: 1em;
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .inptDiv {
+    margin-bottom: 30px;
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .contactUsForm {
+    align-items: unset;
+    width: 100%;
+    // border: 1px solid red;
+
+    .inptDiv {
+      margin-bottom: 30px;
+      width: 100%;
+      // border: 1px solid black;
+
+      input, textarea {
+        width: 100%;
+      }
+    }
+
+    button {
+      align-self: flex-end;
+      width: 20%;
+      margin-top: 25px;
+    }
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .contactUsForm {
+    button {
+      align-self: center;
+      width: 50%;
+    }
+  }
+}

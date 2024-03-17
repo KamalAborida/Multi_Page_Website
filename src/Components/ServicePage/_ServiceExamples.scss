@@ -1,0 +1,23 @@
+.serviceExamples {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+
+@include custom-media($tabletWidth) {
+  .serviceExamples {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .serviceExamples {
+    width: 90%;
+    margin: auto;
+  }
+}

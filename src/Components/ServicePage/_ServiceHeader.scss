@@ -1,0 +1,38 @@
+.serviceHeader {
+  background-color: $Peach;
+  padding: 4em;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  margin: 100px 0;
+  opacity: 95%;
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__paragraph {
+    width: 35%;
+    // border: 1px solid red;
+    margin: auto;
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .serviceHeader {
+    background-image: url("./Assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    &__paragraph {
+      width: 80%;
+    }
+  }
+}
+
+
+@include custom-media($mobileWidth) {
+  .serviceHeader {
+    border-radius: 0;
+  }
+}

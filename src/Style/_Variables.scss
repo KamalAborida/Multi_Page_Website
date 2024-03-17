@@ -1,0 +1,22 @@
+$Peach: #e7816b;
+$Black: #1d1c1e;
+$LightPeach: #ffad9b;
+$DarkGrey: #333136;
+$LightGrey: #f1f3f5;
+$AboutUsDivsColor: #FDF3F0;
+$FooterColor: #8E8D8E;
+
+$Bold: 700;
+$Medium: 500;
+$Regular: 400;
+
+$DesktopWidth: 80%;
+
+$mobileWidth: 450;
+$tabletWidth: 900;
+
+@mixin custom-media($max-width) {
+  @media screen and (max-width: #{$max-width}px) {
+    @content;
+  }
+}

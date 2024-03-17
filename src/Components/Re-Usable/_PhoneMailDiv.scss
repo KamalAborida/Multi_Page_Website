@@ -1,0 +1,16 @@
+.phoneMailDiv {
+  // border: 1px solid red;
+  color: $FooterColor;
+  font-weight: $Bold;
+  position: relative;
+  right: 10%;
+}
+
+@include custom-media($mobileWidth) {
+  .phoneMailDiv {
+    // border: 1px solid red;
+    text-align: center;
+    right: 0;
+    margin-bottom: 40px;
+  }
+}

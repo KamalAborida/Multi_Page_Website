@@ -1,13 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import GeneralContext from "./Components/Context/general-context";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <GeneralContext.Provider
+      value={{
+        desktopWidth: 1350,
+        tabletWidth: 1000,
+        mobileWidth: 450,
+        scrollToTheTop: () => {
+          window.scrollTo({
+            top: 0,
+          });
+        },
+        setNavModal: () => {},
+      }}
+    >
+      <App />
+    </GeneralContext.Provider>
   </React.StrictMode>
 );
 

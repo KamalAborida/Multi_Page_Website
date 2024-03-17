@@ -1,0 +1,19 @@
+.addressDiv {
+  // border: 1px solid red;
+  color: $FooterColor;
+
+  &__p:first-of-type {
+    font-weight: $Bold;
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .addressDiv {
+    text-align: center;
+    margin-bottom: 20px;
+
+    &__p:first-of-type {
+      font-weight: $Bold;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.otherServices {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  margin: 100px auto 50px auto;
+
+  &__serviceDiv {
+    width: 47%;
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .otherServices {
+    flex-direction: column;
+    height: auto;
+    margin: 50px auto 200px auto;
+
+    &__serviceDiv {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .otherServices {
+    width: 90%;
+
+    &__serviceDiv {
+      width: 100%;
+      margin-bottom: 40px;
+
+      &:last-of-type {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

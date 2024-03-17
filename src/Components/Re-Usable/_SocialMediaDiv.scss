@@ -1,0 +1,13 @@
+.socialMediaDiv {
+  // border: 1px solid red;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@include custom-media($mobileWidth) {
+  .socialMediaDiv {
+    // border: 1px solid red;
+    width: 60%;
+  }
+}

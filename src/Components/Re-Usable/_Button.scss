@@ -1,0 +1,23 @@
+.btn {
+  padding: 1.2em 1.5em;
+  border: 0;
+  border-radius: 5px;
+  font-weight: $Medium;
+  letter-spacing: 2px;
+  font-family: "Jost", sans-serif;
+
+  &:hover {
+    background-color: $LightPeach;
+    cursor: pointer;
+  }
+
+  &-onDark {
+    background-color: white;
+    color: $DarkGrey;
+  }
+
+  &-onLight {
+    background-color: $Peach;
+    color: white;
+  }
+}

@@ -1,0 +1,38 @@
+.navModal {
+  display: none;
+}
+
+@include custom-media($mobileWidth) {
+  .navModal {
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    z-index: 100;
+    top: 10%;
+    padding: 2em;
+
+    .nav__navList {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      // border: 1px solid red;
+
+      li {
+        margin-bottom: 20px;
+        font-size: 25px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      :any-link {
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.locationCollection {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+
+  &__locationCTADiv {
+    // border: 1px solid red;
+    text-align: center;
+    width: 30%;
+
+    &__title {
+      font-size: 26px;
+      margin: 20px auto;
+    }
+
+    &__img {
+      background-image: url("./Assets/shared/desktop/bg-pattern-small-circle.svg");
+    }
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .locationCollection {
+    flex-direction: column;
+    align-items: center;
+  
+    &__locationCTADiv {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+  }
+}

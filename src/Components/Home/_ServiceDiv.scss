@@ -1,0 +1,62 @@
+.serviceDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+    .backdrop {
+      background-color: #e7826bd1;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    z-index: 2;
+  }
+
+  &__p {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 120%);
+    width: max-content;
+    z-index: 2;
+    font-weight: $Medium;
+    letter-spacing: 10px;
+    // border: 1px solid red;
+    text-align: center;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  &__backdrop {
+    background-color: rgba(0, 0, 0, 0.721);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px;
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .serviceDiv {
+    &__title {
+      font-size: 35px;
+    }
+  }
+}

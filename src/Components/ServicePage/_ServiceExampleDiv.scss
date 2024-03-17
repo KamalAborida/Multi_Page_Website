@@ -1,0 +1,85 @@
+.serviceExampleDiv {
+  width: 90%;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: $AboutUsDivsColor;
+  margin-bottom: 50px;
+
+  &__img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__descriptionDiv {
+    &__title {
+      font-size: 20px;
+      color: $Peach;
+      margin: 10px auto 5px auto;
+      letter-spacing: 5px;
+    }
+
+    &__description {
+      max-width: 100%;
+      margin-bottom: 20px;
+      width: 80%;
+      margin: 5px auto 25px auto;
+    }
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .serviceExampleDiv {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    position: relative;
+
+    &__img {
+      max-width: unset;
+      width: 50%;
+      margin-bottom: 0;
+      margin-right: 30px;
+    }
+
+    &__descriptionDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__title {
+        margin: unset;
+        margin-bottom: 20px;
+      }
+
+      &__description {
+        margin: unset;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@include custom-media($mobileWidth) {
+  @include custom-media($tabletWidth) {
+    .serviceExampleDiv {
+      display: flex;
+      flex-direction: column;
+  
+      &__img {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+      }
+  
+      &__descriptionDiv {
+        margin-bottom: 25px;
+  
+        &__title {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

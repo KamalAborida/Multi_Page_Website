@@ -1,0 +1,81 @@
+.featureDiv {
+  text-align: center;
+  width: 30%;
+
+  &__title {
+    font-size: 26px;
+    margin: 20px auto;
+  }
+
+  &__img {
+    // border: 1px solid red;
+    background-image: url("./Assets/shared/desktop/bg-pattern-small-circle.svg");
+  }
+}
+
+@include custom-media($tabletWidth) {
+  .featureDiv {
+    text-align: left;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "img title"
+      "img p";
+    margin-bottom: 60px;
+    grid-column-gap: 50px;
+
+    &__title {
+      grid-area: title;
+      margin: unset;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    &__img {
+      grid-area: img;
+      margin: unset;
+      height: 100%;
+    }
+
+    &__p {
+      grid-area: p;
+      margin: unset;
+      height: 100%;
+    }
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .featureDiv {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-areas: unset;
+    // border: 2px solid red;
+
+    &__title {
+      text-align: center;
+      margin: unset;
+      height: unset;
+      display: unset;
+      align-items: unset;
+      margin-bottom: 20px;
+    }
+
+    &__img {
+      grid-area: unset;
+      margin: unset;
+      height: unset;
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    &__p {
+      margin: unset;
+      height: unset;
+    }
+  }
+}

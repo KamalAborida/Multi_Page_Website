@@ -1,0 +1,18 @@
+.featuresCollection {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+@include custom-media($tabletWidth) {
+  .featuresCollection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@include custom-media($mobileWidth) {
+  .featuresCollection {
+    width: 90%;
+  }
+}
