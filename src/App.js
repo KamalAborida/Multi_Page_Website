@@ -11,7 +11,7 @@ import React from "react";
 function App() {
   const routes = createBrowserRouter([
     {
-      path: "Multi_Page_Website/",
+      path: "/Multi_Page_Website/",
       element: <RootPage />,
       children: [
         {
