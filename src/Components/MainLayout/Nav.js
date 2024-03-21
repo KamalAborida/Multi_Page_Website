@@ -21,7 +21,7 @@ function Nav(props) {
   }, [ctx.mobileWidth, isMobile]);
 
   const logoHandler = () => {
-    navigate("/");
+    navigate("/Multi_Page_Website");
   };
 
   return (

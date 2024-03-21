@@ -211,7 +211,7 @@ p {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .socialMediaDiv {
     width: 60%;
   }
@@ -223,7 +223,7 @@ p {
   font-weight: 700;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .addressDiv {
     text-align: center;
     margin-bottom: 20px;
@@ -239,7 +239,7 @@ p {
   right: 10%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .phoneMailDiv {
     text-align: center;
     right: 0;
@@ -268,7 +268,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 33%;
+  width: 50%;
 }
 .nav__navList :-moz-any-link {
   text-decoration: none;
@@ -296,7 +296,7 @@ p {
     width: 55%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .nav__logo {
     width: 60%;
   }
@@ -323,7 +323,7 @@ p {
   align-items: flex-end;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .contactDiv {
     flex-direction: column;
     align-items: center;
@@ -362,7 +362,7 @@ p {
     width: 90%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .footer__content__border {
     display: none;
   }
@@ -405,7 +405,7 @@ p {
     margin-bottom: 25px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .getInTouchDiv {
     top: -280px;
     padding: 2em;
@@ -421,7 +421,7 @@ p {
     width: 90%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .contentContainer {
     width: 100%;
   }
@@ -479,7 +479,7 @@ p {
     padding-top: 100px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .homeHeader {
     margin: auto;
     width: 90%;
@@ -521,7 +521,7 @@ p {
     grid-row: unset;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .serviceCollection {
     width: 90%;
   }
@@ -577,7 +577,7 @@ p {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .serviceDiv__title {
     font-size: 35px;
   }
@@ -594,7 +594,7 @@ p {
     align-items: center;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .featuresCollection {
     width: 90%;
   }
@@ -638,7 +638,7 @@ p {
     height: 100%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .featureDiv {
     text-align: center;
     width: 100%;
@@ -720,7 +720,7 @@ p {
     z-index: 0;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .aboutUsHeader {
     margin-bottom: 0;
     border-radius: 0;
@@ -804,7 +804,7 @@ p {
     background-position-y: top;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .aboutUsDivs {
     margin: 0;
   }
@@ -857,7 +857,7 @@ p {
     left: -15%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .contactUsHeader {
     border-radius: 0;
     padding: 25px;
@@ -899,7 +899,7 @@ p {
     margin-top: 25px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .contactUsForm button {
     align-self: center;
     width: 50%;
@@ -926,7 +926,7 @@ p {
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .otherServices {
     width: 90%;
   }
@@ -953,7 +953,7 @@ p {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .serviceExamples {
     width: 90%;
     margin: auto;
@@ -986,7 +986,7 @@ p {
     width: 80%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .serviceHeader {
     border-radius: 0;
   }
@@ -1044,7 +1044,7 @@ p {
     text-align: center;
   }
 }
-@media screen and (max-width: 450px) and (max-width: 900px) {
+@media screen and (max-width: 700px) and (max-width: 900px) {
   .serviceExampleDiv {
     display: flex;
     flex-direction: column;
@@ -1120,7 +1120,7 @@ p {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .locationDiv {
     border-radius: 0;
   }
@@ -1144,7 +1144,7 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .navModal {
     display: block;
     width: 100%;
@@ -1180,7 +1180,7 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .backdropModal {
     display: unset;
     width: 100%;
