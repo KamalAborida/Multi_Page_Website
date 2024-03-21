@@ -7,9 +7,9 @@ function ServiceCollection() {
 
   return (
     <div className="serviceCollection">
-      <ServiceDiv title="WEB DESIGN" img={webDesign} navLink="/Web Design"/>
-      <ServiceDiv title="APP DESIGN" img={appDesign} navLink="/App Design"/>
-      <ServiceDiv title="GRAPHIC DESIGN" img={graphicDesign} navLink="/Graphic Design"/>
+      <ServiceDiv title="WEB DESIGN" img={webDesign} navLink="/Multi_Page_Website/Web Design"/>
+      <ServiceDiv title="APP DESIGN" img={appDesign} navLink="/Multi_Page_Website/App Design"/>
+      <ServiceDiv title="GRAPHIC DESIGN" img={graphicDesign} navLink="/Multi_Page_Website/Graphic Design"/>
     </div>
   );
 }

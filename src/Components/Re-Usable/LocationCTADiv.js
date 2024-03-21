@@ -7,7 +7,7 @@ function LocationCTADiv(props) {
   const img = require(`../../Assets/shared/desktop/illustration-${imgName}.svg`);
 
   const seeLocationHandler = () => {
-    navigate("/locations")
+    navigate("/Multi_Page_Website/locations")
   }
 
   return (

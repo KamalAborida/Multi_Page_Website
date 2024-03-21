@@ -6,9 +6,9 @@ function NavList(props) {
   
   return (
     <ul className="nav__navList">
-      <li onClick={() => {props.closeModal()}}><Link to="/aboutus">OUR COMPANY</Link></li>
-      <li onClick={() => {props.closeModal()}}><Link to="/locations">LOCATIONS</Link></li>
-      <li onClick={() => {props.closeModal()}}><Link to="/contactus">CONTACT</Link></li>
+      <li onClick={() => {props.closeModal()}}><Link to="/Multi_Page_Website/aboutus">OUR COMPANY</Link></li>
+      <li onClick={() => {props.closeModal()}}><Link to="/Multi_Page_Website/locations">LOCATIONS</Link></li>
+      <li onClick={() => {props.closeModal()}}><Link to="/Multi_Page_Website/contactus">CONTACT</Link></li>
     </ul>
   )
 }

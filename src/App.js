@@ -20,20 +20,20 @@ function App() {
           element: <HomePage />,
         },
         {
-          path: `/:service`,
+          path: `/Multi_Page_Website/:service`,
           element: <ServicePage />,
           loader: loader,
         },
         {
-          path: "/aboutus",
+          path: "/Multi_Page_Website/aboutus",
           element: <AboutUsPage />,
         },
         {
-          path: "/contactus",
+          path: "/Multi_Page_Website/contactus",
           element: <ContactUsPage />,
         },
         {
-          path: "/locations",
+          path: "/Multi_Page_Website/locations",
           element: <LocationsPage />,
         },
       ],

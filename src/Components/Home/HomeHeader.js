@@ -8,7 +8,7 @@ function HomeHeader() {
   const navigate = useNavigate()
 
   const learnMoreHandler = () => {
-    navigate("/aboutus")
+    navigate("/Multi_Page_Website/aboutus")
   }
 
   return (

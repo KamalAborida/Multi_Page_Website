@@ -6,7 +6,7 @@ function GetInTouchDiv() {
   const navigate = useNavigate();
 
   const getInTouchHandler = () => {
-    navigate("/contactus");
+    navigate("/Multi_Page_Website/contactus");
   };
 
   return (
