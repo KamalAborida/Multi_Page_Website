@@ -11,11 +11,12 @@ import React from "react";
 function App() {
   const routes = createBrowserRouter([
     {
-      path: "/Multi_Page_Website/",
+      path: "/",
       element: <RootPage />,
       children: [
         {
           index: true,
+          path: "/Multi_Page_Website",
           element: <HomePage />,
         },
         {
