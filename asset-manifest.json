@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Multi_Page_Website/static/css/main.ec24f0cc.css",
-    "main.js": "/Multi_Page_Website/static/js/main.f9714b69.js",
+    "main.js": "/Multi_Page_Website/static/js/main.07b4c73b.js",
     "static/js/453.5565870f.chunk.js": "/Multi_Page_Website/static/js/453.5565870f.chunk.js",
     "static/media/image-tim-brown.jpg": "/Multi_Page_Website/static/media/image-tim-brown.3051c97c1dcc2c751755.jpg",
     "static/media/image-boxed-water.jpg": "/Multi_Page_Website/static/media/image-boxed-water.9348f4ace8db6ac37e27.jpg",
@@ -50,11 +50,11 @@
     "static/media/bg-pattern-leaf.svg": "/Multi_Page_Website/static/media/bg-pattern-leaf.b8760898792e089a753a.svg",
     "static/media/icon-right-arrow.svg": "/Multi_Page_Website/static/media/icon-right-arrow.7046cd1b7a4a6072a89674a25348f942.svg",
     "main.ec24f0cc.css.map": "/Multi_Page_Website/static/css/main.ec24f0cc.css.map",
-    "main.f9714b69.js.map": "/Multi_Page_Website/static/js/main.f9714b69.js.map",
+    "main.07b4c73b.js.map": "/Multi_Page_Website/static/js/main.07b4c73b.js.map",
     "453.5565870f.chunk.js.map": "/Multi_Page_Website/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec24f0cc.css",
-    "static/js/main.f9714b69.js"
+    "static/js/main.07b4c73b.js"
   ]
 }
